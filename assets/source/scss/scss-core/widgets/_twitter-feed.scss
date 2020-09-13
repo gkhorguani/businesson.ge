@@ -1,0 +1,38 @@
+/*
+ * twitter-feed.scss
+ * -----------------------------------------------
+*/
+.twitter-feed {
+	li {
+		font-size: 13px;
+		margin-bottom: 8px;
+		padding-bottom: 8px;
+		margin-top: 0px;
+		position: relative;
+		list-style: none;
+
+		&.item {
+			position: relative;
+		}
+
+		&::before {
+			content: "\f099";
+			font-size: 24px;
+			font-family: fontawesome;
+			display: block;
+		}
+	}
+}
+.widget {
+	.twitter-feed {
+		li {
+			padding-left: 30px;
+			
+			&::before {
+				left: 0;
+				position: absolute;
+				top: 0;
+			}
+		}
+	}
+}

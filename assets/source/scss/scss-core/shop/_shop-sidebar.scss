@@ -1,0 +1,32 @@
+/*
+ * shop-sidebar.scss
+ * -----------------------------------------------
+*/
+
+.woocommerce-product-search {
+	position: relative;
+	.search-field {
+		border: 1px solid $gray-silver;
+		height: 42px;
+		padding: 5px 10px 5px 20px;
+		width: 100%;
+		border-radius: 0;
+	}
+	input[type="submit"] {
+		background: #333;
+		border: none;
+		color: #fff;
+		height: 100%;
+		left: auto;
+		padding: 10px 20px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		border-radius: 0;
+		@include transition(all .3s ease-in-out);
+		&:hover {
+			background: #111;
+		}
+	}
+
+}

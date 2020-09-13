@@ -1,0 +1,65 @@
+/*
+ * blog.scss
+ * -----------------------------------------------
+*/
+article {
+	.entry-content {
+		h1, h2, h3, h4, h5, h6,
+		.h1, .h2, .h3, .h4, .h5, .h6 {
+			a:hover {
+				color: $theme-color1;
+			}
+		}
+		.post-content,
+		.post-excerpt {
+			a:not(.btn):not(.styled-icons-item):not(.wp-block-button__link):not(.wp-block-button__link), p a:not(.btn):not(.styled-icons-item):not(.wp-block-button__link):not(.wp-block-button__link) {
+			}
+		}
+	}
+	.entry-meta{
+		i, .sl-wrapper .sl-icon svg {
+			//color: $theme-color1;
+		}
+		a:hover {
+			color: $theme-color1;
+		}
+	}
+}
+body.blog {
+	.blog-posts {
+		.main-content-area {
+			.post.sticky {
+				border-color: $theme-color1;
+			}
+		}
+	}
+}
+
+body.single {
+	.single-post-tags {
+		a {
+			&:hover {
+				background-color: $theme-color1;
+			}
+		}
+	}
+}
+.blog-posts {
+	.main-content-area {
+		article {
+			.entry-header {
+				.post-single-meta {
+					background: $theme-color1;
+					&:hover {
+						background: $theme-color2;
+					}
+				}
+			}
+			.entry-content {
+				.entry-meta {
+					color: $theme-color1;
+				}
+			}
+		}
+	}
+}

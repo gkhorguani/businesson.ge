@@ -1,0 +1,14 @@
+/*
+ * blog-single.scss
+ * -----------------------------------------------
+*/
+article {
+	&.format-link {
+		.post-link {
+		}
+	}
+	&.format-quote {
+		blockquote {
+		}
+	}
+}

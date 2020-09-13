@@ -1,0 +1,28 @@
+/*
+ * Shortcode: section-title.scss
+ * -----------------------------------------------
+*/
+.tm-sc-section-title {
+}
+.tm-sc-section-title .title-wrapper .subtitle,
+.h6 {
+    font-family: $font-current-theme2;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 1.5rem;
+    color: #ffa21d;
+    display: block;
+}
+.tm-sc-section-title .title-wrapper .title {
+    font-size: 3.125rem;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 36px;
+        height: 7px;
+    }
+    
+}
