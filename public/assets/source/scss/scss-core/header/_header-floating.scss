@@ -1,0 +1,91 @@
+/*
+ * header-floating.scss
+ * -----------------------------------------------
+*/
+.header {
+	/* -------- Header floating ---------- */
+	&.header-floating {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 1111;
+		.header-floating-text-color(#fff);
+
+		.header-nav .header-nav-wrapper {
+			box-shadow: none;
+		}
+		.sticky-wrapper.is-sticky  {
+			.header-nav.navbar-sticky {
+				box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+				.header-nav-wrapper {
+					box-shadow: none;
+				}
+			}
+		}
+		.header-nav.scroll-to-fixed-fixed .header-nav-wrapper {
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+		}
+		&.bottom-box-shadow .header-nav .header-nav-wrapper {
+			box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+		}
+
+		/* -------- Header Transparent Dark ---------- */
+		&.header-floating-text-dark {
+			.header-floating-text-color(#333);
+		}
+
+		/* -------- Header Transparent Dark ---------- */
+		&.header-floating-text-white {
+			.header-floating-text-color(#fff);
+		}
+
+		
+		/* -------- Header Transparent White ---------- */
+		&.header-transparent-white {
+			.header-top,
+			.header-mid,
+			.header-nav {
+				background-color: rgba(255, 255, 255, 0.85);
+			}
+			.header-floating-text-color(#333);
+			.header-top {
+				.header-top-style-bordered(#ddd);
+			}
+			.header-nav.scroll-to-fixed-fixed {
+				background-color: rgba(255, 255, 255, 1);
+			}
+		}
+		/* -------- Header Transparent Dark ---------- */
+		&.header-transparent-dark {
+			.header-top,
+			.header-mid,
+			.header-nav {
+				background-color: rgba(0, 0, 0, 0.85);
+			}
+			.header-floating-text-color(#fff);
+			.header-top {
+				.header-top-style-bordered(#333);
+			}
+			.header-nav.scroll-to-fixed-fixed {
+				background-color: rgba(22, 22, 22, 1);
+			}
+			.sticky-wrapper.is-sticky  {
+				.header-nav.navbar-sticky {
+					background-color: rgba(22, 22, 22, 1);
+				}
+			}
+		}
+		@include media-breakpoint-down(md) {
+			position: relative;
+			background-color: #333;
+			&.header-floating-text-dark {
+				background-color: #333;
+			}
+			&.header-transparent-white {
+				background-color: #fff;
+			}
+		}
+	}
+	
+}

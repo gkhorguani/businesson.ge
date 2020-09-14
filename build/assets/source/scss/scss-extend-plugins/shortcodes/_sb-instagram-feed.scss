@@ -1,0 +1,27 @@
+/*
+ * Shortcode: sb-instagram-feed.scss
+ * -----------------------------------------------
+*/
+#sb_instagram {
+	.sbi_photo_wrap {
+		.sbi_photo{ 
+			&:after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.5);
+				z-index: 1;
+				bottom: 0;
+				@include transition(all .3s);
+			}
+			
+			&:hover:after {
+				bottom: 0;
+				opacity: 0;
+				z-index: -1;
+			}
+
+		}
+	}
+}

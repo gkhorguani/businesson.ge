@@ -1,0 +1,13 @@
+/*
+ * Shortcode: aio-icon-box
+ * -----------------------------------------------
+*/
+.aio-icon-box {
+	&.top-icon {
+		.aio-icon {
+			i {
+				color: $theme-color1;
+			}
+		}
+	}
+}

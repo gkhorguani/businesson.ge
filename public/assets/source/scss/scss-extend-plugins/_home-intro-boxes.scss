@@ -1,0 +1,10 @@
+/*
+ * Shortcode: home-intro-boxes.scss
+ * -----------------------------------------------
+*/
+.home-intro-boxes,
+.vc_row.home-intro-boxes {
+	@include media-breakpoint-down(sm) {
+		margin-top: 15px !important;
+	}
+}

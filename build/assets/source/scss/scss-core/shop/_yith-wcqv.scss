@@ -1,0 +1,21 @@
+/*
+ * shop-form.scss
+ * -----------------------------------------------
+*/
+.yith-plugins {
+	list-style: none;
+	margin-top: 10px;
+	.yith-wcqv-button {
+		background-color: #fd8c40;
+		width: 32px;
+		height: 32px;
+		display: block;
+		text-align: center;
+		line-height: 32px;
+		border-radius: 32px;
+		i {
+			color: #fff;
+			font-size: 15px;
+		}
+	}
+}

@@ -1,0 +1,515 @@
+/*
+ * accordion-tabs.scss
+ * -----------------------------------------------
+*/
+.wpb-js-composer {
+	.vc_tta.vc_tta-accordion {
+		.vc_tta-panel {
+			.vc_tta-panel-title>a {
+				&:hover {
+					.vc_tta-title-text {
+					}
+				}
+			}
+			&.vc_active {
+				.vc_tta-panel-title>a {
+					&:hover {
+						.vc_tta-title-text {
+						}
+					}
+				}
+			}
+		}
+
+		//custom tm vc accordion
+		&.vc_tta-style-classic {
+			&.tm-vc-accordion-theme-colored1 {
+				.vc_tta-panel {
+					.vc_tta-panel-heading {
+						border-color: #ddd;
+						background-color: #fff;
+						&:hover {
+							border-color: $theme-color1;
+							background-color: $theme-color1;
+						}
+					}
+					.vc_tta-panel-title>a {
+						color: #333;
+						&:hover {
+							.vc_tta-title-text {
+								color: #fff;
+							}
+						}
+					}
+					.vc_tta-controls-icon-position-left {
+						.vc_tta-controls-icon {
+							&.vc_tta-controls-icon-plus {
+								&:before, 
+								&:after {
+									border-color: #333;
+								}
+							}
+						}
+					}
+					&.vc_active {
+						.vc_tta-panel-heading {
+							border-color: $theme-color1;
+							background-color: $theme-color1;
+						}
+						.vc_tta-panel-title>a {
+							.vc_tta-title-text {
+								color: #fff;
+								&:hover {
+									color: #fff;
+								}
+							}
+						}
+						.vc_tta-controls-icon-position-left {
+							.vc_tta-controls-icon {
+								&.vc_tta-controls-icon-plus {
+									&:before, 
+									&:after {
+										border-color: #fff;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			//custom tm vc accordion
+			&.tm-vc-accordion-theme-colored2 {
+				.vc_tta-panel {
+					.vc_tta-panel-heading {
+						border-color: $theme-color2;
+						background-color: $theme-color2;
+						&:hover {
+							border-color: darken($theme-color2, 12%);
+							background-color: darken($theme-color2, 7%);
+						}
+					}
+					.vc_tta-panel-title>a {
+						color: #fff;
+						&:hover {
+							.vc_tta-title-text {
+								color: #fff;
+							}
+						}
+					}
+					&.vc_active {
+						.vc_tta-panel-heading {
+							border-color: #f0f0f0;
+							background-color: #f8f8f8;
+						}
+						.vc_tta-panel-title>a {
+							.vc_tta-title-text {
+								color: $theme-color2;
+								&:hover {
+									color: $theme-color2;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		//custom tm vc accordion
+		&.vc_tta-style-modern {
+			&.tm-vc-accordion-theme-colored1 {
+				.vc_tta-panel {
+					.vc_tta-panel-heading {
+						border-color: $theme-color1;
+						background-color: $theme-color1;
+						&:hover {
+							border-color: darken($theme-color1, 12%);
+							background-color: darken($theme-color1, 7%);
+						}
+					}
+					.vc_tta-panel-title>a {
+						color: #fff;
+						&:hover {
+							.vc_tta-title-text {
+								color: #fff;
+							}
+						}
+					}
+					&.vc_active {
+						.vc_tta-panel-heading {
+							border-color: #f0f0f0;
+							background-color: #f8f8f8;
+						}
+						.vc_tta-panel-title>a {
+							.vc_tta-title-text {
+								color: $theme-color1;
+								&:hover {
+									color: $theme-color1;
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			//custom tm vc accordion
+			&.tm-vc-accordion-theme-colored2 {
+				.vc_tta-panel {
+					.vc_tta-panel-heading {
+						border-color: $theme-color2;
+						background-color: $theme-color2;
+						&:hover {
+							border-color: darken($theme-color2, 12%);
+							background-color: darken($theme-color2, 7%);
+						}
+					}
+					.vc_tta-panel-title>a {
+						color: #fff;
+						&:hover {
+							.vc_tta-title-text {
+								color: #fff;
+							}
+						}
+					}
+					&.vc_active {
+						.vc_tta-panel-heading {
+							border-color: #f0f0f0;
+							background-color: #f8f8f8;
+						}
+						.vc_tta-panel-title>a {
+							.vc_tta-title-text {
+								color: $theme-color2;
+								&:hover {
+									color: $theme-color2;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		//custom tm vc accordion
+		&.vc_tta-style-flat {
+			&.tm-vc-accordion-theme-colored1 {
+				.vc_tta-panel {
+					.vc_tta-panel-heading {
+						border-color: $theme-color1;
+						background-color: $theme-color1;
+						&:hover {
+							border-color: darken($theme-color1, 12%);
+							background-color: darken($theme-color1, 7%);
+						}
+					}
+					.vc_tta-panel-title>a {
+						color: #fff;
+						&:hover {
+							.vc_tta-title-text {
+								color: #fff;
+							}
+						}
+					}
+					&.vc_active {
+						.vc_tta-panel-heading {
+							border-color: #f0f0f0;
+							background-color: #f8f8f8;
+						}
+						.vc_tta-panel-title>a {
+							.vc_tta-title-text {
+								color: $theme-color1;
+								&:hover {
+									color: $theme-color1;
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			//custom tm vc accordion
+			&.tm-vc-accordion-theme-colored2 {
+				.vc_tta-panel {
+					.vc_tta-panel-heading {
+						border-color: $theme-color2;
+						background-color: $theme-color2;
+						&:hover {
+							border-color: darken($theme-color2, 12%);
+							background-color: darken($theme-color2, 7%);
+						}
+					}
+					.vc_tta-panel-title>a {
+						color: #fff;
+						&:hover {
+							.vc_tta-title-text {
+								color: #fff;
+							}
+						}
+					}
+					&.vc_active {
+						.vc_tta-panel-heading {
+							border-color: #f0f0f0;
+							background-color: #f8f8f8;
+						}
+						.vc_tta-panel-title>a {
+							.vc_tta-title-text {
+								color: $theme-color2;
+								&:hover {
+									color: $theme-color2;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+
+		//custom tm vc accordion
+		&.vc_tta-style-outline {
+			&.tm-vc-accordion-theme-colored1 {
+				.vc_tta-panel {
+					.vc_tta-panel-heading {
+						border-color: $theme-color1;
+						&:hover {
+							border-color: darken($theme-color1, 12%);
+							background-color: darken($theme-color1, 7%);
+						}
+					}
+					.vc_tta-panel-title>a {
+						color: $theme-color1;
+						&:hover {
+							.vc_tta-title-text {
+								color: #fff;
+							}
+						}
+					}
+					&.vc_active {
+						.vc_tta-panel-heading {
+						}
+						.vc_tta-panel-title>a {
+							.vc_tta-title-text {
+								color: $theme-color1;
+								&:hover {
+									color: #fff;
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			//custom tm vc accordion
+			&.tm-vc-accordion-theme-colored2 {
+				.vc_tta-panel {
+					.vc_tta-panel-heading {
+						border-color: $theme-color2;
+						&:hover {
+							border-color: darken($theme-color2, 12%);
+							background-color: darken($theme-color2, 7%);
+						}
+					}
+					.vc_tta-panel-title>a {
+						color: $theme-color2;
+						&:hover {
+							.vc_tta-title-text {
+								color: #fff;
+							}
+						}
+					}
+					&.vc_active {
+						.vc_tta-panel-heading {
+						}
+						.vc_tta-panel-title>a {
+							.vc_tta-title-text {
+								color: $theme-color2;
+								&:hover {
+									color: #fff;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	.vc_tta.vc_tta-tabs:not(.vc_tta-has-pagination) {
+		.vc_tta-tab {
+			a {
+				&:hover {
+					.vc_tta-title-text {
+					}
+				}
+			}
+			&.vc_active {
+				a {
+					&:hover {
+						.vc_tta-title-text {
+						}
+					}
+				}
+			}
+		}
+
+		//custom tm vc tab
+		&.vc_tta-style-classic {
+			&.tm-vc-tab-theme-colored1 {
+				.vc_tta-tab {
+					&.vc_active {
+						> a {
+							background-color: $theme-color1;
+							color: #fff;
+						}
+					}
+				}
+				.vc_tta-panel {
+					&.vc_active {
+						.vc_tta-panel-title > a {
+							background-color: $theme-color1;
+							color: #fff;
+						}
+					}
+				}
+			}
+			&.tm-vc-tab-theme-colored2 {
+				.vc_tta-tab {
+					&.vc_active {
+						> a {
+							background-color: $theme-color2;
+							color: #fff;
+						}
+					}
+				}
+				.vc_tta-panel {
+					&.vc_active {
+						.vc_tta-panel-title > a {
+							background-color: $theme-color2;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		//custom tm vc tab
+		&.vc_tta-style-modern {
+			&.tm-vc-tab-theme-colored1 {
+				.vc_tta-tab {
+					&.vc_active {
+						> a {
+							background-color: $theme-color1;
+							color: #fff;
+						}
+					}
+				}
+				.vc_tta-panel {
+					&.vc_active {
+						.vc_tta-panel-title > a {
+							background-color: $theme-color1;
+							color: #fff;
+						}
+					}
+				}
+			}
+			&.tm-vc-tab-theme-colored2 {
+				.vc_tta-tab {
+					&.vc_active {
+						> a {
+							background-color: $theme-color2;
+							color: #fff;
+						}
+					}
+				}
+				.vc_tta-panel {
+					&.vc_active {
+						.vc_tta-panel-title > a {
+							background-color: $theme-color2;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		//custom tm vc tab
+		&.vc_tta-style-flat {
+			&.tm-vc-tab-theme-colored1 {
+				.vc_tta-tab {
+					&.vc_active {
+						> a {
+							background-color: $theme-color1;
+							color: #fff;
+						}
+					}
+				}
+				.vc_tta-panel {
+					&.vc_active {
+						.vc_tta-panel-title > a {
+							background-color: $theme-color1;
+							color: #fff;
+						}
+					}
+				}
+			}
+			&.tm-vc-tab-theme-colored2 {
+				.vc_tta-tab {
+					&.vc_active {
+						> a {
+							background-color: $theme-color2;
+							color: #fff;
+						}
+					}
+				}
+				.vc_tta-panel {
+					&.vc_active {
+						.vc_tta-panel-title > a {
+							background-color: $theme-color2;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		//custom tm vc tab
+		&.vc_tta-style-outline {
+			&.tm-vc-tab-theme-colored1 {
+				.vc_tta-tab {
+					&.vc_active {
+						> a {
+							background-color: $theme-color1;
+							color: #fff;
+						}
+					}
+				}
+				.vc_tta-panel {
+					&.vc_active {
+						.vc_tta-panel-title > a {
+							background-color: $theme-color1;
+							color: #fff;
+						}
+					}
+				}
+			}
+			&.tm-vc-tab-theme-colored2 {
+				.vc_tta-tab {
+					&.vc_active {
+						> a {
+							background-color: $theme-color2;
+							color: #fff;
+						}
+					}
+				}
+				.vc_tta-panel {
+					&.vc_active {
+						.vc_tta-panel-title > a {
+							background-color: $theme-color2;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,403 @@
+/*
+ * Shortcode: projects.scss
+ * -----------------------------------------------
+*/
+.projects-item {
+	margin-bottom: 40px;
+}
+.owl-carousel .projects-item {
+	margin-bottom: 30px;
+}
+
+.tm-sc-projects {
+	.tm-project {
+		position: relative;
+		.details {
+			.cat-list {
+				list-style: none;
+				font-size: 0.8rem;
+				color: #444;
+				text-transform: uppercase;
+				li {
+					display: inline-block;
+					margin-right: 7px;
+					a {
+						font-weight: normal;
+					}
+					&:last-child {
+						span {
+							display: none;
+						}
+					}
+				}
+			}
+			.cat-list + .title {
+				margin-top: 5px;
+			}
+		}
+	}
+	&.border-radius-around-box {
+		.tm-project {
+			border-radius: 15px;
+			overflow: hidden;
+		}
+	}
+	&.projects-style1-simple {
+		.box-hover-effect {
+			.effect-wrapper {
+				border-radius: 5px;
+			}
+		}
+	}
+	&.projects-style2-classic {
+		.tm-project {
+			background-color: #fff;
+			@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			.details {
+				padding: 18px 30px 30px 30px;
+				.title {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	&.projects-style3-modern {
+		.tm-project {
+			@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			.details {
+				position: absolute;
+				bottom: 40px;
+				left: 0;
+				padding: 0 30px 0 30px;
+				opacity: 1;
+				@include transition(all .4s ease-in-out);
+				.title, .excerpt, .btn-plain-text, .btn-plain-text-with-arrow {
+					color:  #fff;
+				}
+			}
+			&:hover {
+				.thumb {
+					&:before {
+						height: 0;
+					}
+				}
+				.details {
+					bottom: 50px;
+				}
+			}
+		}
+	}
+	&.projects-style4-round-thumb {
+		.tm-project {
+			background-color: #fff;
+			@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			text-align: center;
+			overflow: visible;
+			padding-top: 30px;
+			.thumb {
+				position:relative;
+				border-radius:100%;
+				transform:translateY(0%);
+				-webkit-transform:translateY(0%);
+				z-index:1;
+				.thumb-inner {
+					width:78%;
+					margin:0 auto;
+					position:relative;
+					max-width:220px;
+					&:before {
+						content:" ";
+						position:absolute;
+						border:10px solid rgba(255,255,255,0.5);
+						top:0;
+						left:0;
+						width:100%;
+						height:100%;
+						border-radius:100%;
+						z-index:1;
+						transition:0.5s all;
+						-webkit-transition:0.5s all;
+					}
+					img {
+						border-radius:100%;
+					}
+
+				}
+			}
+			.details {
+				padding: 18px 30px 30px 30px;
+				.title {
+				}
+			}
+			&:hover {
+				.thumb {
+					.thumb-inner {
+						&:before {
+							border-color: rgba(248,157,53,0.7);
+						}
+					}
+				}
+			}
+		}
+	}
+	&.projects-style5-hanging-thumb {
+		.tm-project {
+			background-color: #fff;
+			@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			text-align: center;
+			overflow: visible;
+			margin-top: 100px;
+			padding-top: 30px;
+			.thumb {
+				position:relative;
+				border-radius:100%;
+				margin-top: -100px;
+				transform:translateY(0%);
+				-webkit-transform:translateY(0%);
+				z-index:1;
+				.thumb-inner {
+					width:78%;
+					margin:0 auto;
+					position:relative;
+					max-width:220px;
+					&:before {
+						content:" ";
+						position:absolute;
+						border:10px solid rgba(255,255,255,0.5);
+						top:0;
+						left:0;
+						width:100%;
+						height:100%;
+						border-radius:100%;
+						z-index:1;
+						transition:0.5s all;
+						-webkit-transition:0.5s all;
+					}
+					img {
+						border-radius:100%;
+					}
+
+				}
+			}
+			.details {
+				padding: 18px 30px 30px 30px;
+				.title {
+				}
+			}
+			&:hover {
+				.thumb {
+					.thumb-inner {
+						&:before {
+							border-color: rgba(248,157,53,0.7);
+						}
+					}
+				}
+			}
+		}
+	}
+	&.projects-style6-hanging-content {
+		.tm-project {
+			text-align: center;
+			overflow: visible;
+			.thumb {
+				overflow: hidden;
+				position: relative;
+				img {
+					@include scale(1);
+					@include transition(all .4s ease-in-out);
+				}
+
+				&:after {
+					content: "";
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background-color: rgba(0, 0, 0, 0.5);
+					@include transition(all .3s linear);
+					overflow: hidden;
+					-webkit-transform: scaleY(0);
+					-khtml-transform: scaleY(0);
+					-moz-transform: scaleY(0);
+					-ms-transform: scaleY(0);
+					-o-transform: scaleY(0);
+					transform: scaleY(0);
+					opacity: 0;
+				}
+			}
+			.details {
+				padding: 30px;
+				position:relative;
+				margin-left:12px;
+				margin-right:12px;
+				text-align:center;
+				margin-top:-20px;
+				z-index:1;
+				@include transition(all .4s ease-in-out);
+				border-bottom:3px solid #001e57;
+				background-color: #fff;
+				@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			}
+
+			&:hover {
+				.thumb {
+					img {
+						@include scale(1.1);
+					}
+
+					&:after {
+						-webkit-transform: scaleY(1);
+						-khtml-transform: scaleY(1);
+						-moz-transform: scaleY(1);
+						-ms-transform: scaleY(1);
+						-o-transform: scaleY(1);
+						transform: scaleY(1);
+						opacity: 1;
+					}
+				}
+
+				.details{
+					border-color:#df6512;
+					-webkit-transform: translateY(-20px);
+					-ms-transform: translateY(-20px);
+					transform: translateY(-20px);
+				}
+			}
+		}
+	}
+	&.projects-style7-fullwidth-gallery {
+		.tm-project {
+			overflow: visible;
+			padding-top: 0;
+			.thumb {
+				overflow: hidden;
+				position: relative;
+				img {
+					@include scale(1);
+					@include transition(all .4s ease-in-out);
+				}
+
+				&:after {
+					content: "";
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background-color: rgba(0, 0, 0, 0.5);
+					@include transition(all .3s linear);
+					overflow: hidden;
+					-webkit-transform: scaleY(0);
+					-khtml-transform: scaleY(0);
+					-moz-transform: scaleY(0);
+					-ms-transform: scaleY(0);
+					-o-transform: scaleY(0);
+					transform: scaleY(0);
+					opacity: 0;
+				}
+				.link {
+					background: #2d1212;
+					color: #fff;
+					opacity: 0;
+					filter: alpha(opacity=0);
+					-webkit-transition: all .45s;
+					transition: all .45s;
+					-moz-transition: all .45s;
+					-ms-transition: all .45s;
+					width: 32px;
+					height: 32px;
+					line-height: 33px;
+					position: absolute;
+					top: 15px;
+					right: 15px;
+					z-index: 99;
+					text-align: center;
+					margin-top: 45px;
+				}
+			}
+			&:before, &:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			&:before {
+				background-image: url("../images/shadow-overlay2.png");
+				background-position: center bottom;
+				z-index: 1;
+				background-repeat: no-repeat;
+			}
+			&:after {
+				background-color: rgba(0, 0, 0, 0.45);
+				z-index: 2;
+			}
+			.details {
+				display: flex;
+				-webkit-box-pack: end;
+				-ms-flex-pack: end;
+				justify-content: flex-end;
+				flex-direction:column;
+				position: absolute;
+				z-index: 3;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				padding: 30px;
+				-webkit-transform: translateY(30px);
+				-ms-transform: translateY(30px);
+				transform: translateY(30px);
+				@include transition(all .4s ease-in-out);
+				.title, a {
+					color: #fff;
+					&:hover {
+						color: #eee;
+					}
+				}
+				.excerpt {
+					color: #ddd;
+				}
+				.btn-view-details {
+					@include transition(all .4s ease-in-out);
+					opacity: 0;
+				}
+			}
+
+			&:hover {
+				.thumb {
+					img {
+						@include scale(1.1);
+					}
+
+					&:after {
+						-webkit-transform: scaleY(1);
+						-khtml-transform: scaleY(1);
+						-moz-transform: scaleY(1);
+						-ms-transform: scaleY(1);
+						-o-transform: scaleY(1);
+						transform: scaleY(1);
+						opacity: 1;
+					}
+					.link {
+						opacity: 1;
+						filter: alpha(opacity=100);
+						margin-top: 0;
+					}
+				}
+
+				.details{
+					border-color:#df6512;
+					-webkit-transform: translateY(-20px);
+					-ms-transform: translateY(-20px);
+					transform: translateY(-20px);
+					.btn-view-details {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}

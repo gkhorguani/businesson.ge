@@ -1,0 +1,18 @@
+/*
+ * Shortcode: funfacts.scss
+ * -----------------------------------------------
+*/
+.tm-sc-funfact {
+	&.funfact-current-style {
+		.funfact-icon {
+		}
+		.title {
+		}
+		.counter {
+		}
+		&:hover {
+			.funfact-icon {
+			}
+		}
+	}
+}

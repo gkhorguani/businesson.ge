@@ -1,0 +1,19 @@
+/*
+ * Shortcode: button.scss
+ * -----------------------------------------------
+*/
+/* btn-plain-text*/
+.btn-plain-text {
+}
+
+.btn-plain-text-with-arrow {
+	&:after {
+		color: $theme-color1;
+	}
+	&:hover {
+		color: $theme-color1;
+		&:after {
+			color: $theme-color1;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+/*
+ * Shortcode: funfacts.scss
+ * -----------------------------------------------
+*/
+.tm-sc-funfact {
+	&.funfact-current-style {
+		.funfact-icon {
+			margin-bottom: 30px;
+			i {
+				font-size: 60px;
+				height: 126px;
+				width: 126px;
+				display: inline-block;
+				line-height: 126px;
+				-webkit-transition: all .2s linear;
+				transition: all .2s linear;
+			}
+		}
+		.title {
+			margin-bottom: 0;
+		}
+		.counter {
+			margin-top: 0;
+			font-size: 60px;
+			font-family: "Titillium Web", sans-serif;
+			font-weight: 600;
+		}
+		&:hover {
+			.funfact-icon {
+				i {
+					&::before {
+						color: #111c16;
+					}
+				}
+			}
+		}
+	}
+}

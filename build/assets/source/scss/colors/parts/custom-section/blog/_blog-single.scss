@@ -1,0 +1,152 @@
+/*
+ * blog-single.scss
+ * -----------------------------------------------
+*/
+
+body.single {
+}
+
+body.single {
+	.single-post-tags a {
+		background-color: $theme-color1;
+		color: #fff;
+		&:hover {
+			background-color: lighten($theme-color2, 3%);
+		}
+	}
+}
+body.single {
+	.main-content-area {
+		article {
+			.entry-meta {
+				li {
+					i,
+					.sl-wrapper .sl-icon svg {
+						color: $theme-color1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.tm-social-share-icons {
+	.title {
+		i {
+			color: $theme-color1;
+		}
+	}
+}
+body.single {
+	.pre-next-post-link {
+		.pre-post-link,
+		.next-post-link {
+			&:hover {
+				a {
+					color: $theme-color1;
+				}
+			}
+		}
+	}
+}
+
+.page-links {
+	> span {
+		border-color: $theme-color1;
+		background-color: $theme-color1;
+	}
+	a {
+		border-color: $theme-color1;
+		&:hover,
+		&:focus {
+			background-color: $theme-color1;
+		}
+	}
+}
+.comments-area {
+	.comment-list { 
+		.comment,
+		.pingback, .trackback {
+			.comment-item-wrapper {
+				.comment-body {
+					.comment-reply-link {
+						.comment-edit-link, 
+						.comment-reply-link {
+							color: $theme-color2;
+							&:hover,
+							&:focus {
+								color: darken($theme-color1, 10%);
+							}
+						}
+					}
+					.comment-metadata {
+						a {
+							&:hover,
+							&:focus {
+								color: $theme-color1;
+							}
+						}
+					}
+					.comment-author-name {
+						color: $theme-color3;
+						a {
+							color: $theme-color3;
+							&:hover,
+							&:focus {
+								color: $theme-color2;
+							}
+						}
+					}
+				}
+			}
+		}
+		.pingback, .trackback {
+			.comment-body {
+				a {
+					color: $theme-color3;
+				}
+				.edit-link a {
+					color: $theme-color2;
+				}
+			}
+		}
+	}
+
+	.comment-respond {
+		.comment-reply-title {
+			#cancel-comment-reply-link {
+				color: $theme-color1;
+				&:hover,
+				&:focus {
+					color: darken($theme-color1, 10%);
+				}
+			}
+		}
+		.comment-form {
+			.logged-in-as {
+				a {
+					color: $theme-color1;
+					&:hover,
+					&:focus {
+						color: darken($theme-color1, 10%);
+					}
+				}
+			}
+		}
+		.form-group {
+			label {
+			}
+			.form-control {
+			}
+		}
+	}
+}
+body.single {
+	.no-comments, .comments-no-password {
+		background-color: $theme-color1;
+		color: #fff;
+		.close {
+			color: #fff;
+		}
+	}
+}

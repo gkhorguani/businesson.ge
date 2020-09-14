@@ -1,0 +1,215 @@
+/*
+ * Shortcode: partners.scss
+ * -----------------------------------------------
+*/
+.widget.widget-partners {
+	margin-bottom: 20px;
+	.widget-title {
+		margin-top: 0;
+	}
+
+	&.partners-contact-info {
+		.name {
+			color: $headings-color;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.speciality {
+			color: #999;
+			font-size: 15px;
+		}
+		.dl-horizontal {
+			dt {
+				color: $headings-color;
+				i {
+					width: 20px;
+				}
+			}
+		}
+	}
+	&.partners-info {
+		.name {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.tm-sc-partners,
+.tm-cpt-archive-partners {
+	.tm-partners {
+		.partners-content {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			.styled-icons {
+				margin-bottom: 15px;
+			}
+		}
+		.name {
+			color: $headings-color;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.speciality {
+			color: #999;
+			font-size: 15px;
+			margin-bottom: 10px;
+		}
+		.short-bio {
+			margin-bottom: 20px;
+		}
+		.partners-working-hours  {
+			font-size: 14px;
+			margin-bottom: 15px;
+		}
+		.contact-info {
+			li {
+				font-size: $font-size-sm;
+				list-style: none;
+				margin-bottom: 5px;
+				padding-bottom: 5px;
+				font-weight: normal;
+				a {
+					color: $text-color;
+					font-weight: normal;
+				}
+				i {
+					width: 20px;
+					margin-right: 0;
+				}
+			}
+			margin-bottom: 15px;
+		}
+		.btn-view-details, .btn-appointment {
+			a {
+				margin-bottom: 5px;
+				margin-right: 5px;
+			}
+		}
+	}
+}
+
+
+.tm-sc-partners,
+.tm-cpt-archive-partners {
+	&.partners-style1-simple {
+	}
+
+
+	&.partners-style2-classic {
+		.tm-partners {
+			@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			.partners-content {
+				padding: 30px;
+				background-color: #fff;
+				.name {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+
+	&.partners-style3-modern {
+		.tm-partners {
+			@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			.partners-content {
+				padding: 15px 30px 10px 30px;
+				background-color: #fff;
+				.name {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+
+	&.partners-style4-everything-centered {
+		.tm-partners {
+			@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			padding: 30px;
+			background-color: #fff;
+			text-align: center;
+			.partners-content {
+				.name {
+					margin-top: 0;
+				}
+			}
+			.btn-view-details, .btn-appointment {
+				float: none;
+			}
+		}
+	}
+
+	&.partners-style5-current-theme {
+		.tm-partners {
+			@include box-shadow( 0px 0px 50px rgba(5, 5, 5, 0.08) );
+			background-color: #fff;
+			.partners-content {
+				text-align: center;
+				padding: 20px 20px 22px 20px;
+				@include transition(all 0.3s ease);
+				.name {
+					color: #333;
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+				.speciality {
+					color: #747070;
+				    font-size: 14px;
+				    font-weight: 500;
+				}
+			}
+			.btn-view-details .btn-plain-text-with-arrow {
+				color: #F89D35;
+				font-size: 14px;
+				text-transform: capitalize;
+				font-weight: 600;
+			}
+		}
+		.box-hover-effect {
+			.effect-wrapper {
+				.icons-holder-middle {
+				    left: 0;
+				    margin: 0 auto;
+				    right: 0;
+				    text-align: center;
+				    background: rgba(255, 255, 255, 0.8);
+				    top: auto;
+				    bottom: -20px;
+				    vertical-align: middle;
+				    padding: 10px 0 5px 0;
+				    width: 100%;
+				}
+			}
+			&:hover {
+				.effect-wrapper .icons-holder-middle {
+				    bottom: 0px;
+				    width: 100%;
+				}
+				.partners-content {
+					border-bottom: 5px solid #d96310;
+				}
+			}
+		}
+	}
+
+
+	&.partners-style6-horizontal {
+		.tm-partners {
+			background-color: #f5f5f5;
+		}
+	}
+}
+
+
+
+.tm-cpt-archive-partners {
+	.tm-partners {
+		.short-bio {
+			margin-top: 10px;
+		}
+		.btn {
+			margin-top: 15px;
+		}
+	}
+}

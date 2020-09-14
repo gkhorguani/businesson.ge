@@ -1,0 +1,105 @@
+/*
+ * vc-btn.scss
+ * -----------------------------------------------
+*/
+.vc_general.vc_btn3 {
+	&.vc_btn3-color-btn-theme-colored1 {
+		color: #fff;
+		background-color: $theme-color1;
+		&:hover, &:focus {
+			background-color: darken($theme-color1, 10%);
+			color: #fff;
+			.vc_btn3-icon {
+				color: #fff;
+			}
+		}
+		&.vc_btn3-style-modern {
+			color: #fff;
+			border-color: $theme-color1;
+			background-color: $theme-color1;
+			&:hover, &:focus {
+				background-color: darken($theme-color1, 10%);
+				border-color: darken($theme-color1, 10%);
+				color: #fff;
+				.vc_btn3-icon {
+					color: #fff;
+				}
+			}
+		}
+		&.vc_btn3-style-classic {
+		}
+		&.vc_btn3-style-flat {
+		}
+		&.vc_btn3-style-outline {
+			color: $theme-color1;
+			border-color: $theme-color1;
+			background-color: transparent;
+			&:hover, &:focus {
+				background-color: darken($theme-color1, 10%);
+				border-color: darken($theme-color1, 10%);
+				color: #fff;
+				.vc_btn3-icon {
+					color: #fff;
+				}
+			}
+		}
+		&.vc_btn3-style-3d {
+			box-shadow: 0 5px 0 darken($theme-color1, 10%);
+			&:hover, &:focus {
+				top: 3px;
+				box-shadow: 0 2px 0 darken($theme-color1, 10%);
+			}
+		}
+	}
+
+
+
+	&.vc_btn3-color-btn-theme-colored2 {
+		color: #fff;
+		background-color: $theme-color2;
+		&:hover, &:focus {
+			background-color: darken($theme-color2, 10%);
+			color: #fff;
+			.vc_btn3-icon {
+				color: #fff;
+			}
+		}
+		&.vc_btn3-style-modern {
+			color: #fff;
+			border-color: $theme-color2;
+			background-color: $theme-color2;
+			&:hover, &:focus {
+				background-color: darken($theme-color2, 10%);
+				border-color: darken($theme-color2, 10%);
+				color: #fff;
+				.vc_btn3-icon {
+					color: #fff;
+				}
+			}
+		}
+		&.vc_btn3-style-classic {
+		}
+		&.vc_btn3-style-flat {
+		}
+		&.vc_btn3-style-outline {
+			color: $theme-color2;
+			border-color: $theme-color2;
+			background-color: transparent;
+			&:hover, &:focus {
+				background-color: darken($theme-color2, 10%);
+				border-color: darken($theme-color2, 10%);
+				color: #fff;
+				.vc_btn3-icon {
+					color: #fff;
+				}
+			}
+		}
+		&.vc_btn3-style-3d {
+			box-shadow: 0 5px 0 darken($theme-color2, 10%);
+			&:hover, &:focus {
+				top: 3px;
+				box-shadow: 0 2px 0 darken($theme-color2, 10%);
+			}
+		}
+	}
+}
