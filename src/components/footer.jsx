@@ -28,7 +28,7 @@ const Footer = () => (
                             <div id="tm_widget_blog_list-1" className="split-nav-menu clearfix widget widget-blog-list clearfix">
                                 <h4 className="widget-title widget-title-line-bottom line-bottom-footer-widget line-bottom-theme-colored1">Latest News</h4>
                                 <div className="tm-widget tm-widget-blog-list ">
-                                    <article className="post media-post clearfix"> <a className="post-thumb" href="#"><img width="100" height="70" src="http://placehold.it/672x448" className="" alt="" /></a>
+                                    <article className="post media-post clearfix"> <a className="post-thumb" href="#"><img width="100" height="70" src="/images/672x448.png" className="" alt="" /></a>
                                         <div className="post-right">
                                             <h6 className="post-title"> <a href="#">Customer Focused </a> </h6>
                                             <span className="post-date">
@@ -36,7 +36,7 @@ const Footer = () => (
                                             </span>
                                         </div>
                                     </article>
-                                    <article className="post media-post clearfix"> <a className="post-thumb" href="#"><img width="100" height="70" src="http://placehold.it/672x448" className="" alt="" /></a>
+                                    <article className="post media-post clearfix"> <a className="post-thumb" href="#"><img width="100" height="70" src="/images/672x448.png" className="" alt="" /></a>
                                         <div className="post-right">
                                             <h6 className="post-title"> <a href="#"> School For Poor </a> </h6>
                                             <span className="post-date">
@@ -44,7 +44,7 @@ const Footer = () => (
                                             </span>
                                         </div>
                                     </article>
-                                    <article className="post media-post clearfix"> <a className="post-thumb" href="#"><img width="100" height="70" src="http://placehold.it/672x448" className="" alt="" /></a>
+                                    <article className="post media-post clearfix"> <a className="post-thumb" href="#"><img width="100" height="70" src="/images/672x448.png" className="" alt="" /></a>
                                         <div className="post-right">
                                             <h6 className="post-title"> <a href="#"> Shelter For Homeless </a> </h6>
                                             <span className="post-date">

@@ -10,7 +10,7 @@ const Home = () => {
                     <div className="section-content">
                         <div className="row">
                             <div className="col-sm-12 col-lg-6 col-md-12">
-                                <img src="http://placehold.it/600x500" className="attachment-full" alt="" />
+                                <img src="/images/600x500.png" className="attachment-full" alt="" />
                             </div>
                             <div className="col-sm-12 col-lg-6 col-md-12">
                                 <h6 className="text-theme-colored2">Welcome To Our Company</h6>
@@ -68,7 +68,7 @@ const Home = () => {
                                 <div className="tm-sc tm-sc-services services-style-current-theme mb-30">
                                     <div className="tm-service services type-services">
                                         <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="http://placehold.it/672x448" className="img-fullwidth" alt="" /></div>
+                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
                                         </div>
                                         <div className="details">
                                             <div className='symbol-icon'><img src='images/icon/f1.png' alt='Image' /></div>
@@ -84,7 +84,7 @@ const Home = () => {
                                 <div className="tm-sc tm-sc-services services-style-current-theme mb-30">
                                     <div className="tm-service services type-services">
                                         <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="http://placehold.it/672x448" className="img-fullwidth" alt="" /></div>
+                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
                                         </div>
                                         <div className="details">
                                             <div className='symbol-icon'><img src='images/icon/f2.png' alt='Image' /></div>
@@ -100,7 +100,7 @@ const Home = () => {
                                 <div className="tm-sc tm-sc-services services-style-current-theme mb-30">
                                     <div className="tm-service services type-services">
                                         <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="http://placehold.it/672x448" className="img-fullwidth" alt="" /></div>
+                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
                                         </div>
                                         <div className="details">
                                             <div className='symbol-icon'><img src='images/icon/f3.png' alt='Image' /></div>
@@ -116,7 +116,7 @@ const Home = () => {
                                 <div className="tm-sc tm-sc-services services-style-current-theme mb-lg-30">
                                     <div className="tm-service services type-services">
                                         <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="http://placehold.it/672x448" className="img-fullwidth" alt="" /></div>
+                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
                                         </div>
                                         <div className="details">
                                             <div className='symbol-icon'><img src='images/icon/f4.png' alt='Image' /></div>
@@ -132,7 +132,7 @@ const Home = () => {
                                 <div className="tm-sc tm-sc-services services-style-current-theme mb-lg-30">
                                     <div className="tm-service services type-services">
                                         <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="http://placehold.it/672x448" className="img-fullwidth" alt="" /></div>
+                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
                                         </div>
                                         <div className="details">
                                             <div className='symbol-icon'><img src='images/icon/f5.png' alt='Image' /></div>
@@ -148,7 +148,7 @@ const Home = () => {
                                 <div className="tm-sc tm-sc-services services-style-current-theme">
                                     <div className="tm-service services type-services">
                                         <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="http://placehold.it/672x448" className="img-fullwidth" alt="" /></div>
+                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
                                         </div>
                                         <div className="details">
                                             <div className='symbol-icon'><img src='images/icon/f6.png' alt='Image' /></div>
@@ -165,7 +165,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="" data-tm-bg-img="http://placehold.it/1920x1280">
+            <section className="" data-tm-bg-img="/images/1920x1280.png">
                 <div className="container-fluid p-0">
                     <div className="section-content">
                         <div className="row">
@@ -273,7 +273,7 @@ const Home = () => {
                                         <div className="staff-inner">
                                             <div className="box-hover-effect">
                                                 <div className="staff-header effect-wrapper">
-                                                    <div className="thumb"> <img src="http://placehold.it/365x445" className="img-fullwidth" alt="" /></div>
+                                                    <div className="thumb"> <img src="/images/365x445.png" className="img-fullwidth" alt="" /></div>
                                                 </div>
                                                 <div className="staff-content">
                                                     <h5 className="name"><a href="#">Jonathan Deo</a></h5>
@@ -299,7 +299,7 @@ const Home = () => {
                                         <div className="staff-inner">
                                             <div className="box-hover-effect">
                                                 <div className="staff-header effect-wrapper">
-                                                    <div className="thumb"> <img src="http://placehold.it/365x445" className="img-fullwidth" alt="" /></div>
+                                                    <div className="thumb"> <img src="/images/365x445.png" className="img-fullwidth" alt="" /></div>
                                                 </div>
                                                 <div className="staff-content">
                                                     <h5 className="name"><a href="#">Momota Joa</a></h5>
@@ -325,7 +325,7 @@ const Home = () => {
                                         <div className="staff-inner">
                                             <div className="box-hover-effect">
                                                 <div className="staff-header effect-wrapper">
-                                                    <div className="thumb"> <img src="http://placehold.it/365x445" className="img-fullwidth" alt="" /></div>
+                                                    <div className="thumb"> <img src="/images/365x445.png" className="img-fullwidth" alt="" /></div>
                                                 </div>
                                                 <div className="staff-content">
                                                     <h5 className="name"><a href="#">Adams Jone</a></h5>
@@ -351,7 +351,7 @@ const Home = () => {
                                         <div className="staff-inner">
                                             <div className="box-hover-effect">
                                                 <div className="staff-header effect-wrapper">
-                                                    <div className="thumb"> <img src="http://placehold.it/365x445" className="img-fullwidth" alt="" /></div>
+                                                    <div className="thumb"> <img src="/images/365x445.png" className="img-fullwidth" alt="" /></div>
                                                 </div>
                                                 <div className="staff-content">
                                                     <h5 className="name"><a href="#">Rebecca Dayana</a></h5>
@@ -376,7 +376,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="" data-tm-bg-img="http://placehold.it/1920x1280">
+            <section className="" data-tm-bg-img="/images/1920x1280.png">
                 <div className="container-fluid p-0">
                     <div className="section-content">
                         <div className="row">
@@ -497,7 +497,7 @@ const Home = () => {
                                 <div className="box-hover-effect play-video-button tm-sc tm-sc-video-popup tm-sc-video-popup-button-over-image  ">
                                     <div className="effect-wrapper">
                                         <div className="thumb">
-                                            <img className="img-fullwidth" src="http://placehold.it/555x360" alt="Image" />
+                                            <img className="img-fullwidth" src="/images/555x360.png" alt="Image" />
                                         </div>
                                         <div className="animated-css-play-button"><span className="play-icon"><i className="fa fa-play"></i></span></div>
                                         <div className="video-button-text"></div>
@@ -510,7 +510,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="layer-overlay overlay-theme-colored1-5 section-typo-light text-center" data-tm-bg-img="http://placehold.it/1920x1280">
+            <section className="layer-overlay overlay-theme-colored1-5 section-typo-light text-center" data-tm-bg-img="/images/1920x1280.png">
                 <div className="container">
                     <div className="section-content">
                         <div className="row">
@@ -589,7 +589,7 @@ const Home = () => {
                                             <div className="testimonial-author-details">
                                                 <div className="testimonial-footer">
                                                     <div className="testimonial-image-holder">
-                                                        <div className="author-thumb"> <img width="85" height="85" src="http://placehold.it/85x85" className="img-fullwidth rounded-circle wp-post-image" alt="" /></div>
+                                                        <div className="author-thumb"> <img width="85" height="85" src="/images/85x85.png" className="img-fullwidth rounded-circle wp-post-image" alt="" /></div>
                                                     </div>
                                                     <div className="author-info">
                                                         <h5 className="name">Tarna Jasmin</h5>
@@ -613,7 +613,7 @@ const Home = () => {
                                             <div className="testimonial-author-details">
                                                 <div className="testimonial-footer">
                                                     <div className="testimonial-image-holder">
-                                                        <div className="author-thumb"> <img width="85" height="85" src="http://placehold.it/85x85" className="img-fullwidth rounded-circle wp-post-image" alt="" /></div>
+                                                        <div className="author-thumb"> <img width="85" height="85" src="/images/85x85.png" className="img-fullwidth rounded-circle wp-post-image" alt="" /></div>
                                                     </div>
                                                     <div className="author-info">
                                                         <h5 className="name">Hilton Alex</h5>
@@ -637,7 +637,7 @@ const Home = () => {
                                             <div className="testimonial-author-details">
                                                 <div className="testimonial-footer">
                                                     <div className="testimonial-image-holder">
-                                                        <div className="author-thumb"> <img width="85" height="85" src="http://placehold.it/85x85" className="img-fullwidth rounded-circle wp-post-image" alt="" /></div>
+                                                        <div className="author-thumb"> <img width="85" height="85" src="/images/85x85.png" className="img-fullwidth rounded-circle wp-post-image" alt="" /></div>
                                                     </div>
                                                     <div className="author-info">
                                                         <h5 className="name">Sonia Malkova</h5>
@@ -664,7 +664,7 @@ const Home = () => {
                         <div className="row">
                             <div className="col-sm-12">
                                 <div className="tm-sc tm-sc-custom-columns-holder tm-cc-two-columns tm-cc-responsive-mode-1280">
-                                    <div className="tm-sc tm-sc-custom-columns-holder-item" data-item-class="senior-mascot-custom-columns-283434" data-tm-bg-img="http://placehold.it/1920x1280">
+                                    <div className="tm-sc tm-sc-custom-columns-holder-item" data-item-class="senior-mascot-custom-columns-283434" data-tm-bg-img="/images/1920x1280.png">
                                         <div className="item-inner">
                                             <div className="item-content senior-mascot-custom-columns-283434">
                                             </div>
@@ -730,7 +730,7 @@ const Home = () => {
                                         <div className="entry-header">
                                             <div className="post-thumb lightgallery-lightbox">
                                                 <div className="post-thumb-inner">
-                                                    <div className="thumb"> <img src="http://placehold.it/672x448" alt="Image" /></div>
+                                                    <div className="thumb"> <img src="/images/672x448.png" alt="Image" /></div>
                                                 </div>
                                             </div>
                                             <a className="link" href="#"><i className="fa fa-link"></i></a>
@@ -757,7 +757,7 @@ const Home = () => {
                                         <div className="entry-header">
                                             <div className="post-thumb lightgallery-lightbox">
                                                 <div className="post-thumb-inner">
-                                                    <div className="thumb"> <img src="http://placehold.it/672x448" alt="Image" /></div>
+                                                    <div className="thumb"> <img src="/images/672x448.png" alt="Image" /></div>
                                                 </div>
                                             </div>
                                             <a className="link" href="#"><i className="fa fa-link"></i></a>
@@ -784,7 +784,7 @@ const Home = () => {
                                         <div className="entry-header">
                                             <div className="post-thumb lightgallery-lightbox">
                                                 <div className="post-thumb-inner">
-                                                    <div className="thumb"> <img src="http://placehold.it/672x448" alt="Image" /></div>
+                                                    <div className="thumb"> <img src="/images/672x448.png" alt="Image" /></div>
                                                 </div>
                                             </div>
                                             <a className="link" href="#"><i className="fa fa-link"></i></a>
