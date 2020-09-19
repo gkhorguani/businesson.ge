@@ -3328,6 +3328,8 @@
 				THEMEMASCOT.initialize.TM_portfolioStickyScrollMagic();
 				THEMEMASCOT.initialize.TM_shopSingleStickyScrollMagic();
 				THEMEMASCOT.initialize.TM_fitVids();
+				THEMEMASCOT.header.TM_menuzord();
+
 			}, 0);
 			$window.trigger("scroll");
 			$window.trigger("resize");
@@ -3364,7 +3366,7 @@
 	};
 
 
-	THEMEMASCOT.header.TM_menuzord();
+	// THEMEMASCOT.header.TM_menuzord();
 	
 
 	/* ---------------------------------------------------------------------- */

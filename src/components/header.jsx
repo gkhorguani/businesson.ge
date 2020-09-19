@@ -49,25 +49,6 @@ const Header = () => {
                                                     <li className={location.pathname === "/about" ? "active" : ""}><a href="/about">ჩვენს შესახებ</a></li>
                                                     <li className={location.pathname === "/services" ? "active" : ""}><a href="/services">სერვისები</a></li>
                                                     <li className={location.pathname === "/careers" ? "active" : ""}><a href="/careers">კარიერა</a></li>
-                                                    {/* <li><a href="#">Pages</a>
-                                                    <ul className="dropdown">
-                                                        <li><a href="page-gallery.html">Gallery</a></li>
-                                                        <li><a href="page-team-grid.html">Team Grid</a></li>
-                                                        <li><a href="page-team-details.html">Team Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#home">Service</a>
-                                                    <ul className="dropdown">
-                                                        <li><a href="page-services.html">Service Grid</a></li>
-                                                        <li><a href="page-service-details.html">Service Deatils</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Blog</a>
-                                                    <ul className="dropdown">
-                                                        <li><a href="news-grid.html">News Grid</a></li>
-                                                        <li><a href="news-details.html">News Details</a></li>
-                                                    </ul>
-                                                </li> */}
                                                     <li className={location.pathname === "/contact" ? "active" : ""}><a href="/contact">კონტაქტი</a></li>
                                                 </ul>
                                             </nav>
