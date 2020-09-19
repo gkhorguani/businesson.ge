@@ -809,26 +809,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-theme-colored1">
-                <div className="container pt-60 pb-60">
-                    <div className="section-content">
-                        <div className="row">
-                            <div className="col-sm-12">
-                                <div className="tm-sc tm-sc-clients tm-sc-clients-carousel owl-dots-light-skin owl-dots-center clients-animation-zoom">
-                                    <div className="owl-carousel owl-theme tm-owl-carousel-6col" data-autoplay="true" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="0" data-laptop="2">
-                                        <div className="item"> <a target="_blank" href="#"> <img src='images/clients/client-white-img2.png' alt='Image' /> </a></div>
-                                        <div className="item"> <a target="_blank" href="#"> <img src='images/clients/client-white-img4.png' alt='Image' /> </a></div>
-                                        <div className="item"> <a target="_blank" href="#"> <img src='images/clients/client-white-img1.png' alt='Image' /> </a></div>
-                                        <div className="item"> <a target="_blank" href="#"> <img src='images/clients/client-white-img11.png' alt='Image' /> </a></div>
-                                        <div className="item"> <a target="_blank" href="#"> <img src='images/clients/client-white-img9.png' alt='Image' /> </a></div>
-                                        <div className="item"> <a target="_blank" href="#"> <img src='images/clients/client-white-img8.png' alt='Image' /> </a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
     );
 }
