@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div className="main-content">
-            <section className="page-title divider layer-overlay overlay-dark-8 section-typo-light bg-img-center" data-tm-bg-img="http://placehold.it/1920x1280">
+            <section className="page-title divider layer-overlay overlay-dark-8 section-typo-light bg-img-center" data-tm-bg-img="/images/1920x1280.png">
                 <div className="container pt-90 pb-90">
                     <div className="section-content">
                         <div className="row">
@@ -31,7 +31,7 @@ const About = () => {
                     <div className="section-content">
                         <div className="row">
                             <div className="col-sm-12 col-lg-6 col-md-12">
-                                <img src="http://placehold.it/600x500" className="attachment-full" alt="" />
+                                <img src="/images/600x500.png" className="attachment-full" alt="" />
                             </div>
                             <div className="col-sm-12 col-lg-6 col-md-12">
                                 <h6 className="text-theme-colored2">Welcome To Our Company</h6>

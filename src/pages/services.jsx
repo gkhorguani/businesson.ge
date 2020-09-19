@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
     return (
         <div className="main-content">
-            <section className="page-title divider layer-overlay overlay-dark-8 section-typo-light bg-img-center" data-tm-bg-img="http://placehold.it/1920x1280">
+            <section className="page-title divider layer-overlay overlay-dark-8 section-typo-light bg-img-center" data-tm-bg-img="/images/1920x1280.png">
                 <div className="container pt-90 pb-90">
                     <div className="section-content">
                         <div className="row">
