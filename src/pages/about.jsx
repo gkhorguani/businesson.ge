@@ -1,163 +1,105 @@
 import React from 'react'
+import { home_services_geo, home_services_eng } from '../constants/services'
 
 const About = () => {
     return (
         <div className="main-content">
-            <section className="page-title divider layer-overlay overlay-dark-8 section-typo-light bg-img-center" data-tm-bg-img="/images/1920x1280.png">
-                <div className="container pt-90 pb-90">
-                    <div className="section-content">
-                        <div className="row">
-                            <div className="col-md-12 text-center">
-                                <h2 className="title text-white">About</h2>
-                                <nav role="navigation" className="breadcrumb-trail breadcrumbs">
-                                    <div className="breadcrumbs">
-                                        <span className="trail-item trail-begin">
-                                            <a href="#"><span>Home</span></a>
-                                        </span>
-                                        <span><i className="fa fa-angle-right"></i></span>
-                                        <span className="trail-item"><a href="#"><span>Pages</span></a></span>
-                                        <span><i className="fa fa-angle-right"></i></span>
-                                        <span className="trail-item trail-end text-theme-colored2">About</span>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section className="bg-img-no-repeat bg-img-right" data-tm-bg-img="images/bg/bg-shape-bconsul2.png">
                 <div className="container">
                     <div className="section-content">
                         <div className="row">
                             <div className="col-sm-12 col-lg-6 col-md-12">
-                                <img src="/images/600x500.png" className="attachment-full" alt="" />
+                                <img src="/images/about_us.jpg" className="attachment-full" alt="" />
                             </div>
                             <div className="col-sm-12 col-lg-6 col-md-12">
-                                <h6 className="text-theme-colored2">Welcome To Our Company</h6>
-                                <h2 className="font-size-64 mb-20" >Increasing your business with us</h2>
+                                <h2 className="font-size-30 mb-20" >ჩვენს შესახებ</h2>
                                 <div className="mb-30">
-                                    <p>Capitalize on low hanging fruit to identify a ballpark value added the digital divide with additional clickthroughs from nanotechnology.</p>
+                                    <p>
+                                        „ბიზნეს ON“  შეიქმნა წარმატებისთვის.
+                                        თქვენი და ჩვენი წარმატებისთვის.
+                                        თქვენი ბიზნესის საჭიროებები, თქვენთვის მაქსიმალური კომფორტის შექმნა, თქვენი საქმიანობის სრული მხარდაჭერა, თქვენი ბიზნესის წარმატებული ოპერირებისთვის სიახლეების მუდმივი ძიება და საჭირო დროს  თქვენთვის შემოთავაზება - ეს ის ძირითადი ასპექტებია, რაზეც ჩვენი კომპანიის კონცეფცია ავაგეთ და ამ იდეის გარშემო რამდენიმე მოტივირებული, შესაბამისი უნარების და კვალიფიკაციის მქონე ახალგაზრდა გავერთიანდით.
+
+                                    </p>
                                 </div>
-                                <div className="row">
-                                    <div className="col-sm-6">
-                                        <div className="tm-sc tm-sc-unordered-list list-style10">
-                                            <ul>
-                                                <li>Podcasting operational</li>
-                                                <li>Completely resource</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-6">
-                                        <div className="tm-sc tm-sc-unordered-list list-style10">
-                                            <ul>
-                                                <li>Podcasting operational</li>
-                                                <li>Completely resource</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="tm-sc tm-sc-button mt-25"> <a href="#" target="_self" className="btn btn-outline-theme-colored2 btn-outline btn-round btn-flat"> Learn More </a></div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <section className="" data-tm-bg-img="/images/1920x1280.png">
-                <div className="container-fluid p-0">
-                    <div className="section-content">
+                    <div class="container">
+                        <h2 className="font-size-30 mb-20" >რას გთავაზობთ</h2>
+                        <div className="mb-30">
+                            <p>
+                                „ბიზნეს ON“  გთავაზობთ ბევრად მეტს, ვიდრე ბაზარზე არსებული სხვა საკონსულტაციო კომპანიები. ჩვენი პროდუქტი იმით არის უნიკალური და ინოვაციური, რომ ჩვენ უპრეცენდენტო მასშტაბის აუთსორსინგს გთავაზობთ.
+                                ჩვენ შევისწავლეთ ბიზნესის საჭიროება და შევქმენით ბიზნესის მხარდამჭერი პირველი კომპანია საქართველოში, რომელსაც  თქვენთვის ყველა იმ მომსახურების შეთავაზება შეუძლია, რაც თქვენს საქმიანობას დასჭირდება.
+                                ჩევნს მიერ შემოთავაზებული ბიზნეს პროცესების აუთსორსინგი მოიცავს ისეთ სფეროებს, როგორიც არის:
+                            </p>
+                        </div>
                         <div className="row">
-                            <div className="col-sm-12">
-                                <div className="tm-sc tm-sc-custom-columns-holder tm-cc-two-columns tm-cc-responsive-mode-1280">
-                                    <div className="tm-sc tm-sc-custom-columns-holder-item bg-img-right" data-item-class="bconsul-mascot-custom-columns-479103" data-1200-up="80px 15% 90px 15%" data-1199-down="80px 10% 100px 10%">
-                                        <div className="item-inner bg-white-f5">
-                                            <div className="item-content bconsul-mascot-custom-columns-479103">
-                                                <h6 className="text-theme-colored2 side-line">Our Working Process</h6>
-                                                <h2 className="mt-0 mb-40">How We Work?</h2>
-                                                <div className="row">
-                                                    <div className="col-md-6 col-lg-6">
-                                                        <div className="tm-sc tm-sc-icon-box icon-box icon-top tm-iconbox-icontype-font-icon iconbox-theme-colored1 icon-position-icon-top mb-50">
-                                                            <div className="icon-box-wrapper">
-                                                                <div className="icon-wrapper"> <a className="icon icon-type-image icon-default"> <img src="images/icon/c1.png" alt="Image" /> </a></div>
-                                                                <div className="icon-text">
-                                                                    <h5 className="icon-box-title mt-0">Interviewing</h5>
-                                                                    <div className="content">
-                                                                        <p>Default text for Box Content. Lorem ipsum dolor sit amet consectetur elit content.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-md-6 col-lg-6">
-                                                        <div className="tm-sc tm-sc-icon-box icon-box icon-top tm-iconbox-icontype-font-icon iconbox-theme-colored1 icon-position-icon-top mb-50">
-                                                            <div className="icon-box-wrapper">
-                                                                <div className="icon-wrapper"> <a className="icon icon-type-image icon-default"> <img src="images/icon/c2.png" alt="Image" /> </a></div>
-                                                                <div className="icon-text">
-                                                                    <h5 className="icon-box-title mt-0">Analysis</h5>
-                                                                    <div className="content">
-                                                                        <p>Default text for Box Content. Lorem ipsum dolor sit amet consectetur elit content.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-md-6 col-lg-6">
-                                                        <div className="tm-sc tm-sc-icon-box icon-box icon-top tm-iconbox-icontype-font-icon iconbox-theme-colored1 icon-position-icon-top mb-md-50">
-                                                            <div className="icon-box-wrapper">
-                                                                <div className="icon-wrapper"> <a className="icon icon-type-image icon-default"> <img src="images/icon/c3.png" alt="Image" /> </a></div>
-                                                                <div className="icon-text">
-                                                                    <h5 className="icon-box-title mt-0">Development</h5>
-                                                                    <div className="content">
-                                                                        <p>Default text for Box Content. Lorem ipsum dolor sit amet consectetur elit content.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-md-6 col-lg-6">
-                                                        <div className="tm-sc tm-sc-icon-box icon-box icon-top tm-iconbox-icontype-font-icon iconbox-theme-colored1 icon-position-icon-top">
-                                                            <div className="icon-box-wrapper">
-                                                                <div className="icon-wrapper"> <a className="icon icon-type-image icon-default"> <img src="images/icon/c4.png" alt="Image" /> </a></div>
-                                                                <div className="icon-text">
-                                                                    <h5 className="icon-box-title mt-0">Support</h5>
-                                                                    <div className="content">
-                                                                        <p>Default text for Box Content. Lorem ipsum dolor sit amet consectetur elit content.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="tm-sc tm-sc-custom-columns-holder-item" data-item-class="bconsul-mascot-custom-columns-363166">
-                                        <div className="item-inner">
-                                            <div className="item-content bconsul-mascot-custom-columns-363166">
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div className="col-sm-6">
+                                <div className="tm-sc tm-sc-unordered-list list-style10">
+                                    <ul>
+                                        {home_services_geo.map(service => <li>{service.title}</li>)}
+                                    </ul>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 className="font-size-30 mb-20" >რას მიიღებთ ჩვენგან</h2>
+                        <div className="mb-30">
+                            <h2 className="font-size-15 mb-15" >შემცირებულ  დანახარჯებს</h2>
+                            <p>
+                                არ გეხარჯებათ თანხა თანამშრომლების მოძიებაში, დატრენინგებაში, ზოგავთ მათთან დაკავშირებულ ყველა ხარჯს,
+                                არ ქმნით მის სამუშაო სივრცეს და არ უხდით მათ ყოველთვიურად ხელფასს.
+                            </p>
+                        </div>
+                        <div className="mb-30">
+                            <h2 className="font-size-15 mb-15" >გაზრდილ გაყიდვებს</h2>
+                            <p>
+                                ჩვენი პარტნიორები წარმატებული კომპანიების კვალიფიციური თანამშრომლები არიან, რომელთა ეფექტური მუშაობის შედეგი მოკლე დროში
+                                დადებითად აისახება თქვენი კომპანიის შემოსავლის და გაყიდვების ზრდის დინამიკაზე.
+                            </p>
+                        </div>
+                        <div className="mb-30">
+                            <h2 className="font-size-15 mb-15" >დაზოგილ  დროს</h2>
+                            <p>
+                                ჩვენი შემოთავაზების მიღებით, იღებთ კომპლექსურ მომსახურებას და ზოგავთ თქვენთვის ყველაზე ძვირფასს - თქვენს დროს და თქვენი
+                                კომპანიის განვითარებისთვის უფრო მნიშვნელოვან საკითხებზე რჩებით ორიენტირებულნი -  საჭიროების დადგომისას, უკავშირდებით მხოლოდ „ბიზნეს ON“-ს და
+                                თქვენ პირადი ბიზნეს ასისტენტი თვითონ დაუკავშირდება პირს,  ვისი მომსახურებაც იმ ეტაპზე გჭირდებათ.
+                            </p>
+                        </div>
+                        <div className="mb-30">
+                            <h2 className="font-size-15 mb-15" >მეტ კომფორტს</h2>
+                            <p>
+                                თქვენ უკვე პირადი ბიზნეს ასისტენტი გყავთ, ენდობით და ზუსტად იცით, რომ მასთან ერთი დარეკვით, ყველა წარმოქმნილ პრობლემას აგვარებთ.
+                                არ გჭირდებათ დამატებით  შეხსენება ან კონტროლი. თავს უფლებას აძლევთ, თვალი ადევნოთ გამართულ სამუშაო
+                                პროცესს და მეგობრებთან თავი მოიწონოთ „ბიზნეს ON“-თან პარტნიორობით.
+                            </p>
+                        </div>
+                        <div className="mb-30">
+                            <h2 className="font-size-15 mb-15" >გაზრდილ ხარისხს და უფრო მაღალ შედეგს</h2>
+                            <p>
+                                საჭიროების დადგომისას, თქვენი პრობლემის მოგვარების პროცესში ბიზნეს-პროცესების და კრიზისების მართვის გუნდი ერთვება,
+                                რომელიც მთელი მისი შემადგენლობის კვალიფიკაციის, ცოდნის, უნარების და რესურსების ხარჯზე გადაწყვეტს თქვენს პრობლემას.
+                                ასეთი გუნდის მიერ შესრულებული სამუშაო კი გარანტირებულად  უფრო მაღალ შედეგს და ხარისხს გპირდებათ, ვიდრე კომპანიაში ამ საკითხის მოსაგვარებლად
+                                დაქირავებული 1 თანამშრომლის მიერ შესრულებული სამუშაო.
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="bg-img-no-repeat" data-tm-bg-img="images/bg/bg-shape-bconsul1.png">
+            <section>
                 <div className="container pt-90">
                     <div className="section-title">
                         <div className="row justify-content-md-center">
                             <div className="col-md-8">
                                 <div className="text-center mb-60">
-                                    <div className="tm-sc tm-sc-section-title section-title section-title-style1 text-center line-bottom-style3-bordered-line">
+                                    <div
+                                        className="tm-sc tm-sc-section-title section-title section-title-style1 text-center line-bottom-style3-bordered-line">
                                         <div className="title-wrapper">
-                                            <h2 className="title"> <span className="">Our </span> <span className="text-theme-colored2">Service</span> Areas</h2>
-                                            <div className="title-seperator-line"></div>
-                                            <div className="paragraph">
-                                                <p>Explore Our Completed Services! Consectetur adipiscing elitt elit tellus, luctus pulvinar dapibus leoconsectetur luctus nec.</p>
-                                            </div>
+                                            <h2 className="title"> <span className="">ჩვენი </span> <span
+                                                className="text-theme-colored2">გუნდი</span> </h2>
                                         </div>
                                     </div>
                                 </div>
@@ -166,98 +108,82 @@ const About = () => {
                     </div>
                     <div className="section-content">
                         <div className="row">
-                            <div className="col-md-6 col-lg-6 col-xl-4">
-                                <div className="tm-sc tm-sc-services services-style-current-theme mb-30">
-                                    <div className="tm-service services type-services">
-                                        <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
-                                        </div>
-                                        <div className="details">
-                                            <div className='symbol-icon'><img src='images/icon/f1.png' alt='Image' /></div>
-                                            <h4 className="title"><a href="#">Risk Management</a></h4>
-                                            <ul className="cat-list"></ul>
-                                            <div className="excerpt"> Leverage agile frameworks to provide a robust synopsis for high level overviews.</div>
-                                            <div className="btn-view-details"> <a href="#" className="btn btn-plain-text-with-arrow btn-sm"> View Details </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-6 col-xl-4">
-                                <div className="tm-sc tm-sc-services services-style-current-theme mb-30">
-                                    <div className="tm-service services type-services">
-                                        <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
-                                        </div>
-                                        <div className="details">
-                                            <div className='symbol-icon'><img src='images/icon/f2.png' alt='Image' /></div>
-                                            <h4 className="title"><a href="#">Investment Planning</a></h4>
-                                            <ul className="cat-list"></ul>
-                                            <div className="excerpt"> Leverage agile frameworks to provide a robust synopsis for high level overviews.</div>
-                                            <div className="btn-view-details "> <a href="#" className="btn btn-plain-text-with-arrow btn-sm"> View Details </a></div>
+                            <div className="col-md-6 col-lg-6 col-xl-3">
+                                <div className="tm-sc tm-sc-staff staff-style5-current-theme mb-lg-30">
+                                    <div className="tm-staff staff-items type-staff-items">
+                                        <div className="staff-inner">
+                                            <div className="box-hover-effect">
+                                                <div className="staff-header effect-wrapper">
+                                                    <div className="thumb"> <img src="/images/static/about/Ekaterine Khorguani.jpg" className="img-fullwidth" width="365" height="445" alt="" /></div>
+                                                </div>
+                                                <div className="staff-content">
+                                                    <h5 className="name"><a href="#">ეკატერინე ხორგუანი</a></h5>
+                                                    <div className="speciality"><div><br /></div>დამფუძნებელი და დირექტორი</div>
+                                                    <div className="staff-btn">
+                                                        <div className="clearfix"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-6 col-xl-4">
-                                <div className="tm-sc tm-sc-services services-style-current-theme mb-30">
-                                    <div className="tm-service services type-services">
-                                        <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
-                                        </div>
-                                        <div className="details">
-                                            <div className='symbol-icon'><img src='images/icon/f3.png' alt='Image' /></div>
-                                            <h4 className="title"><a href="#">Market research</a></h4>
-                                            <ul className="cat-list"></ul>
-                                            <div className="excerpt"> Leverage agile frameworks to provide a robust synopsis for high level overviews.</div>
-                                            <div className="btn-view-details "> <a href="#" className="btn btn-plain-text-with-arrow btn-sm"> View Details </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-6 col-xl-4">
-                                <div className="tm-sc tm-sc-services services-style-current-theme mb-lg-30">
-                                    <div className="tm-service services type-services">
-                                        <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
-                                        </div>
-                                        <div className="details">
-                                            <div className='symbol-icon'><img src='images/icon/f4.png' alt='Image' /></div>
-                                            <h4 className="title"><a href="#">Business Consulting</a></h4>
-                                            <ul className="cat-list"></ul>
-                                            <div className="excerpt"> Leverage agile frameworks to provide a robust synopsis for high level overviews.</div>
-                                            <div className="btn-view-details "> <a href="#" className="btn btn-plain-text-with-arrow btn-sm"> View Details </a></div>
+                            <div className="col-md-6 col-lg-6 col-xl-3">
+                                <div className="tm-sc tm-sc-staff staff-style5-current-theme mb-lg-30">
+                                    <div className="tm-staff staff-items type-staff-items">
+                                        <div className="staff-inner">
+                                            <div className="box-hover-effect">
+                                                <div className="staff-header effect-wrapper">
+                                                    <div className="thumb"> <img src="/images/static/about/nata ekaladze.jpg" className="img-fullwidth" width="365" height="445" alt="" /></div>
+                                                </div>
+                                                <div className="staff-content">
+                                                    <h5 className="name"><a href="#">ნატა ეკალაძე</a></h5>
+                                                    <div className="speciality">ადმინისტრაციული მიმართულების ხელმძღვანელი</div>
+                                                    <div className="staff-btn">
+                                                        <div className="clearfix"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-6 col-xl-4">
-                                <div className="tm-sc tm-sc-services services-style-current-theme mb-lg-30">
-                                    <div className="tm-service services type-services">
-                                        <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
-                                        </div>
-                                        <div className="details">
-                                            <div className='symbol-icon'><img src='images/icon/f5.png' alt='Image' /></div>
-                                            <h4 className="title"><a href="#">Financial Analysis</a></h4>
-                                            <ul className="cat-list"></ul>
-                                            <div className="excerpt"> Leverage agile frameworks to provide a robust synopsis for high level overviews.</div>
-                                            <div className="btn-view-details "> <a href="#" className="btn btn-plain-text-with-arrow btn-sm"> View Details </a></div>
+                            <div className="col-md-6 col-lg-6 col-xl-3">
+                                <div className="tm-sc tm-sc-staff staff-style5-current-theme mb-lg-30">
+                                    <div className="tm-staff staff-items type-staff-items">
+                                        <div className="staff-inner">
+                                            <div className="box-hover-effect">
+                                                <div className="staff-header effect-wrapper" style={{ minHeight: '493px' }}>
+                                                    <div className="thumb"> <img src="/images/static/about/mikheil kvirkvelia.jpg" className="img-fullwidth" width="365" height="445" alt="" /></div>
+                                                </div>
+                                                <div className="staff-content">
+                                                    <h5 className="name"><a href="#">მიხეილ კვირკველია</a></h5>
+                                                    <div className="speciality">პროდუქტის განვითარების მიმართულების ხელმძღვანელი</div>
+                                                    <div className="staff-btn">
+                                                        <div className="clearfix"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-6 col-xl-4">
-                                <div className="tm-sc tm-sc-services services-style-current-theme">
-                                    <div className="tm-service services type-services">
-                                        <div className="thumb">
-                                            <div className="thumb-inner"> <img width="672" height="448" src="/images/672x448.png" className="img-fullwidth" alt="" /></div>
-                                        </div>
-                                        <div className="details">
-                                            <div className='symbol-icon'><img src='images/icon/f6.png' alt='Image' /></div>
-                                            <h4 className="title"><a href="#">Strategy & Planning​</a></h4>
-                                            <ul className="cat-list"></ul>
-                                            <div className="excerpt"> Leverage agile frameworks to provide a robust synopsis for high level overviews.</div>
-                                            <div className="btn-view-details "> <a href="#" className="btn btn-plain-text-with-arrow btn-sm"> View Details </a></div>
+                            <div className="col-md-6 col-lg-6 col-xl-3">
+                                <div className="tm-sc tm-sc-staff staff-style5-current-theme mb-lg-30">
+                                    <div className="tm-staff staff-items type-staff-items">
+                                        <div className="staff-inner">
+                                            <div className="box-hover-effect">
+                                                <div className="staff-header effect-wrapper" style={{ minHeight: '493px' }}>
+                                                    <div className="thumb"> <img src="/images/static/about/mindia surmanidze.jpg" className="img-fullwidth" width="365" height="445" alt="" /></div>
+                                                </div>
+                                                <div className="staff-content">
+                                                    <h5 className="name"><a href="#">მინდია სურმანიძე</a></h5>
+                                                    <div className="speciality">ბრენდის განვითარების მიმართულების ხელმძღვანელი</div>
+                                                    <div className="staff-btn">
+                                                        <div className="clearfix"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -266,6 +192,8 @@ const About = () => {
                     </div>
                 </div>
             </section>
+
+
 
         </div>
     )

@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom'
 
 const Header = () => {
     const location = useLocation();
-    console.log(location.pathname);
 
     return (
         <header id="header" className="header header-layout-type-header-2rows">
@@ -19,11 +18,10 @@ const Header = () => {
                         </div>
                         <div className="col-xl-auto ml-xl-auto header-top-right align-self-center text-center text-xl-right">
                             <div className="element">
-                                {/* <ul className="header-top-nav list-inline">
-                                <li className="menu-item"><a title="Home" className="menu-item-link" href="#"><strong>Home</strong></a></li>
-                                <li className="menu-item"><a title="Home" className="menu-item-link" href="#"><strong>Cart</strong></a></li>
-                                <li className="menu-item"><a title="Home" className="menu-item-link" href="#"><strong>Contact Us</strong></a></li>
-                            </ul> */}
+                                <ul className="header-top-nav list-inline">
+                                    <li className="menu-item"><a title="Home" className="menu-item-link" href="#"><strong>GE</strong></a></li>
+                                    <li className="menu-item"><a title="Home" className="menu-item-link" href="#"><strong>EN</strong></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -38,7 +36,7 @@ const Header = () => {
                                     <div className="row header-nav-col-row">
                                         <div className="col-sm-auto align-self-center">
                                             <a className="menuzord-brand site-brand" href="/">
-                                                <img className="logo-default logo-1x" src="images/logo.jpg" alt="Logo" />
+                                                <img className="logo-default logo-1x" src="/images/logo.jpg" alt="Logo" />
                                                 <img className="logo-default logo-2x retina" src="images/logo.jpg" alt="Logo" />
                                             </a>
                                         </div>
@@ -47,7 +45,7 @@ const Header = () => {
                                                 <ul id="main-nav" className="menuzord-menu">
                                                     <li className={location.pathname === "/" ? "active" : ""}><a href="/">მთავარი</a></li>
                                                     <li className={location.pathname === "/about" ? "active" : ""}><a href="/about">ჩვენს შესახებ</a></li>
-                                                    <li className={location.pathname === "/services" ? "active" : ""}><a href="/services">სერვისები</a></li>
+                                                    <li className={(location.pathname === "/services" || location.pathname.indexOf('offer') > -1) ? "active" : ""}><a href="/services">სერვისები</a></li>
                                                     <li className={location.pathname === "/careers" ? "active" : ""}><a href="/careers">კარიერა</a></li>
                                                     <li className={location.pathname === "/contact" ? "active" : ""}><a href="/contact">კონტაქტი</a></li>
                                                 </ul>
