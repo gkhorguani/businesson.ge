@@ -210,10 +210,160 @@ const specific_services_geo = [
             </ol>
         `,
         image: '/images/static/servisebi/ertjeradi.jpg'
-    },
+    }
 ];
 
-const specific_services_eng = [];
+const specific_services_eng = [
+    {
+        id: "1",
+        title: '“Consulting” package',
+        markup: `
+            <p>Turn on the package and get a personal advisor from "Business ON"! You will always receive timely, qualified, proper consultation in any field of your business operations, any time you need!</p>
+            <p>The Consulting package includes written and verbal, comprehensive multidisciplinary consultations on the following topics:</p>
+            <ul>
+                <li>Legal issues</li>
+                <li>Finance, audit, accounting, tax issues</li>
+                <li>Marketing, public relations</li>
+                <li>Human resources, recruitment</li>
+                <li>IT services, security systems</li>
+                <li>Workforce safety issues</li>
+                <li>Repair / reconstruction works</li>
+                <li>Insurance</li>
+                <li style="color: red;">Package bonus: You get from us– composing any kind of legal agreement - any time you need!</li>
+            </ul>
+        `,
+        image: '/images/static/servisebi/konsaltingi.jpg'
+    },
+    {
+        id: "2",
+        title: 'Package - “performance &monitoring”',
+        markup: `
+            <p>
+                In case of turning on the package, "Business ON" will find professional service providers you need, individuals or legal entities, compare their 
+                terms of service to choose the best option for you.What’s important– to get guaranteed results we will constantly monitor the 
+                work done by them and will inform you in a timely manner. 
+            </p>
+            <ul>
+                <li>Legal issues</li>
+                <li>Finance, audit, accounting, tax issues</li>
+                <li>Marketing, public relations</li>
+                <li>Human resources, recruitment</li>
+                <li>IT services, security systems</li>
+                <li>Workforce safety issues</li>
+                <li>Repair / reconstruction works</li>
+                <li>Insurance</li>
+                <li>Cleaning service</li>
+            </ul>
+        `,
+        image: '/images/static/servisebi/shesruleba da monitoringi.jpg'
+    },
+    {
+        id: "3",
+        title: 'Package "Administrative Assistant"',
+        markup: `
+            <p>
+                In case of activating the package, "Business ON" will offer you a personal administrative assistant. Businesses need to produce many types of documents in 
+                order to operate, and in many cases they also need to be translated, notarized, and registered with the relevant state body.
+            </p>
+            <p>
+                Business ON will organize the whole process - find a translator, communicate with a notary and follow all relevant legal procedures.
+            </p>
+            <p>
+                At the same time, "Business ON" will arrange for you meetings, business trips, conferences, will take part in hosting your foreign guests, provide them with accommodation, transportation and etc.
+            </p>
+            <p>
+                In a word, by activating the package you get the services of a full-fledged administrative assistant.
+            </p>
+ 
+            <p style="color: red;">>Package bonus - Personal Real Estate Agent!</p>
+            <p>The package includes the following service areas:</p>
+            <ul>
+                <li>Administrative support, documents, translation, certification</li>
+                <li>Tourism services</li>
+                <li>Real estate agent services</li>
+            </ul>
+        `,
+        image: '/images/static/servisebi/administraciuli.jpg'
+    },
+    {
+        id: "4",
+        title: 'Package “Universal Business Assistant”',
+        markup: `
+            <p>
+                For the first time on Georgian market! - We offer the service of a business assistant, who will advise you (Qualified consultation), at the same time find the people who provide the services you need, control the quality of the work done by them and provide you withtimely information in the form of reports.
+            </p>
+            <p>
+                On the other hand, "Business ON" will perform the role of your personal administrative assistant.
+            </p>
+            <p style="color: red;">
+                Package bonuses:
+            </p>
+            <ul>
+                <li style="color: red;">Procurement and supply of office, consumables</li>
+                <li style="color: red;">Auto service (car wash)</li>
+            </ul>
+
+            <p></p>
+            <p>Universal Business Assistant will take care of the cleanliness and Technical performance of your vehicles, at the same time will periodically purchase and deliver the consumables you need.</p>
+            <p>Summing up, the package includes the following areas of consulting and services:</p>
+
+            <ul>
+                <li>Legal issues</li>
+                <li>Finance, audit, accounting, tax issues</li>
+                <li>Marketing, public relations</li>
+                <li>Human resources, recruitment</li>
+                <li>Procurement and supply of office, consumables</li>
+                <li>IT services, security systems</li>
+                <li>Workforce safety issues</li>
+                <li>Administrative support, documents, translation, certification</li>
+                <li>Tourism services</li>
+                <li>Repair / reconstruction works</li>
+                <li>Insurance</li>
+                <li>Real estate agent services</li>
+                <li>Cleaning service</li>
+                <li>Auto service (car wash)</li>
+            </ul>
+        `,
+        image: '/images/static/servisebi/universaluri.jpg'
+    },
+    {
+        id: "5",
+        title: '”Custom service Package”',
+        markup: `
+            <p>
+                The service packages offered by Business ON are designed based on the general needs of the business and the comprehensive market research 
+                conducted. However, we want to be maximally focused individually on the needs of all users. For this purpose, we offer you to fill in the 
+                application form and our team will offer you an individual service package specially designed for you in the shortest possible time!
+            </p>
+        `,
+        image: '/images/static/servisebi/sheqmeni.jpg'
+    },
+    {
+        id: "6",
+        title: 'One-time service packages',
+        markup: `
+            <p>
+                If you need help solving a specific issue at any stage of developing your business – “Business ON” offers one-time service packages:
+            </p>
+            <ol>
+                <li>Financial / tax planning</li>
+                <li>Prepare and submit financial statements</li>
+                <li>Tax consultation</li>
+                <li>tax disputes (representing your interests)</li>
+                <li>Planning and developing your organizational structure</li>
+                <li>Creating a business plan</li>
+                <li>Legal advice</li>
+                <li>Creation, certification, registration of the contract, internal regulations, company charter and other legal documents</li>
+                <li>Sales promotion, marketing consultation and strategy development</li>
+                <li>Translation</li>
+                <li>ArchitecturalPlans, projects, engineering services</li>
+                <li>Finding financial resources / relations with banks</li>
+                <li>Company registration</li>
+            </ol>
+        `,
+        image: '/images/static/servisebi/ertjeradi.jpg'
+    },
+];
 
 export {
     home_services_eng,

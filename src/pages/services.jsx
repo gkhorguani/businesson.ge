@@ -1,10 +1,14 @@
 import React from 'react'
+import { getCookie } from '../utils/cookie'
 import {
     specific_services_geo,
     specific_services_eng
 } from '../constants/services'
 
 const Services = () => {
+    const selected_lang = getCookie('businesson_language_preference');
+    const specific_services = selected_lang === 'GE' ? specific_services_geo : specific_services_eng;
+
     return (
         <div className="main-content">
 
@@ -12,7 +16,7 @@ const Services = () => {
                 <div className="container">
                     <div className="section-content">
                         <div className="row">
-                            {specific_services_geo.map(service => <div className="col-md-6 col-lg-6 col-xl-4">
+                            {specific_services.map(service => <div className="col-md-6 col-lg-6 col-xl-4">
                                 <div className="tm-sc tm-sc-services services-style-current-theme mb-30">
                                     <div className="tm-service services type-services">
                                         <div className="thumb">

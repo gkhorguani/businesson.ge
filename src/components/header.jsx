@@ -1,8 +1,16 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom'
+import {setCookie, getCookie} from '../utils/cookie'
+import { menu_geo, menu_eng } from '../constants/menu'
+
+const setLang = lang => {
+    setCookie('businesson_language_preference', lang, 7);
+}
 
 const Header = () => {
+    const selected_lang = getCookie('businesson_language_preference');
     const location = useLocation();
+    const menu_data = selected_lang === 'GE' ? menu_geo : menu_eng;
 
     return (
         <header id="header" className="header header-layout-type-header-2rows">
@@ -19,8 +27,12 @@ const Header = () => {
                         <div className="col-xl-auto ml-xl-auto header-top-right align-self-center text-center text-xl-right">
                             <div className="element">
                                 <ul className="header-top-nav list-inline">
-                                    <li className="menu-item"><a title="Home" className="menu-item-link" href="#"><strong>GE</strong></a></li>
-                                    <li className="menu-item"><a title="Home" className="menu-item-link" href="#"><strong>EN</strong></a></li>
+                                    <li className="menu-item">
+                                        <a title="Georgian" className="menu-item-link" style={{textDecoration: selected_lang === 'GE' ? 'underline' : 'none'}} href="#" onClick={() => setLang('GE')}><strong>GE</strong></a>
+                                    </li>
+                                    <li className="menu-item">
+                                        <a title="English" className="menu-item-link" style={{textDecoration: selected_lang === 'EN' ? 'underline' : 'none'}} href="#" onClick={() => setLang('EN')}><strong>EN</strong></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -43,11 +55,9 @@ const Header = () => {
                                         <div className="col-sm-auto ml-auto pr-0 align-self-center">
                                             <nav id="top-primary-nav" className="menuzord green" data-effect="fade" data-animation="none" data-align="right">
                                                 <ul id="main-nav" className="menuzord-menu">
-                                                    <li className={location.pathname === "/" ? "active" : ""}><a href="/">მთავარი</a></li>
-                                                    <li className={location.pathname === "/about" ? "active" : ""}><a href="/about">ჩვენს შესახებ</a></li>
-                                                    <li className={(location.pathname === "/services" || location.pathname.indexOf('offer') > -1) ? "active" : ""}><a href="/services">სერვისები</a></li>
-                                                    <li className={location.pathname === "/careers" ? "active" : ""}><a href="/careers">კარიერა</a></li>
-                                                    <li className={location.pathname === "/contact" ? "active" : ""}><a href="/contact">კონტაქტი</a></li>
+                                                    {menu_data.map(menu =>
+                                                        <li className={location.pathname === menu.url || location.pathname.indexOf(menu.subUrl) > -1 ? "active" : ""}><a href={menu.url}>{menu.name}</a></li>
+                                                    )}
                                                 </ul>
                                             </nav>
                                         </div>

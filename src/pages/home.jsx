@@ -1,4 +1,5 @@
 import React from 'react'
+import { getCookie } from '../utils/cookie'
 import {
     home_services_eng,
     home_services_geo,
@@ -7,6 +8,10 @@ import {
 } from '../constants/services'
 
 const Home = () => {
+    const selected_lang = getCookie('businesson_language_preference');
+    const home_main = selected_lang === 'GE' ? home_main_geo : home_main_eng;
+    const home_services = selected_lang === 'GE' ? home_services_geo : home_services_eng;
+
     return (
         <div className="main-content-area">
 
@@ -18,12 +23,12 @@ const Home = () => {
                                 <img src="/images/bconsul-about1.jpg" className="attachment-full" alt="" />
                             </div>
                             <div className="col-sm-12 col-lg-6 col-md-12">
-                                <h2 className="font-size-40 mb-20" >{home_main_geo.title}</h2>
+                                <h2 className="font-size-40 mb-20" >{home_main.title}</h2>
                                 <div className="row">
                                     <div className="col-sm-12">
                                         <div className="tm-sc tm-sc-unordered-list list-style10">
                                             <ul>
-                                                {home_main_geo.list.map(l => <li>{l}</li>)}
+                                                {home_main.list.map(l => <li>{l}</li>)}
                                             </ul>
                                         </div>
                                     </div>
@@ -38,7 +43,7 @@ const Home = () => {
                 <div className="container pt-0">
                     <div className="section-content">
                         <div className="row">
-                            {home_services_geo.map(service => <div className="col-md-6 col-lg-6 col-xl-4">
+                            {home_services.map(service => <div className="col-md-6 col-lg-6 col-xl-4">
                                 <div className="tm-sc tm-sc-services services-style-current-theme mb-30">
                                     <div className="tm-service services type-services">
                                         <div className="thumb">
