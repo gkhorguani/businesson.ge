@@ -49,8 +49,8 @@ const Home = () => {
                                         <div className="thumb">
                                             <div className="thumb-inner"> <img width="672" height="448" src={service.image} className="img-fullwidth" alt="" /></div>
                                         </div>
-                                        <div className="details" style={{ 'minHeight': '180px' }}>
-                                            <h4 className="title"><a href="#">{service.title}</a></h4>
+                                        <div className="details" style={{ 'minHeight': '120px' }}>
+                                            <h4 className="title font-size-18"><a href="#">{service.title}</a></h4>
                                             <ul className="cat-list"></ul>
                                         </div>
                                     </div>

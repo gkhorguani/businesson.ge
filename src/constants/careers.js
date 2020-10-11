@@ -19,6 +19,8 @@ const job_geo = {
             <li>ინფორმაციის ეფექტურად გადაცემის უნარი.</li>
         </ul>
         
+        <div />
+        <br />
         <p>ანაზღაურება</p>
         <ul>
             <li>ფიქსირებული + ბონუსები გაყიდვებიდან.</li>
@@ -45,6 +47,8 @@ const job_eng = {
             <li>Offer corporate packages to potential clients.</li>
         </ul>
         
+        <div />
+        <br />
         <p>Basic requirements:</p>
         <ul>
             <li>Ability to conduct negotiations;</li>
@@ -53,6 +57,8 @@ const job_eng = {
             <li>Ability to communicate information effectively.</li>
         </ul>
         
+        <div />
+        <br />
         <p>Remuneration</p>
         <ul>
             <li>Fixed + bonuses from sales.</li>

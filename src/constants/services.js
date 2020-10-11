@@ -123,7 +123,7 @@ const specific_services_geo = [
                 პაკეტის ჩართვით თქვენ იღებთ სრულფასოვანი ადმინისტრაციული ასისტენტის მომსახურებას.
             </p>
  
-            <p style="color: red;">>ბონუსი პაკეტზე -  უძრავი ქონების პირადი აგენტი!</p>
+            <p style="color: red;">ბონუსი პაკეტზე -  უძრავი ქონების პირადი აგენტი!</p>
             <p>პაკეტი მოიცავს შემდეგ მომსახურების სფეროებს:</p>
             <ul>
                 <li>ადმინისტრაციული მხარდაჭერა, დოკუმენტები, თარგმნა, დამოწმება</li>
@@ -275,7 +275,7 @@ const specific_services_eng = [
                 In a word, by activating the package you get the services of a full-fledged administrative assistant.
             </p>
  
-            <p style="color: red;">>Package bonus - Personal Real Estate Agent!</p>
+            <p style="color: red;">Package bonus - Personal Real Estate Agent!</p>
             <p>The package includes the following service areas:</p>
             <ul>
                 <li>Administrative support, documents, translation, certification</li>

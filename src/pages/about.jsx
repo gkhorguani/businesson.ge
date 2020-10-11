@@ -10,7 +10,7 @@ const About = () => {
     const team_data = selected_lang === 'GE' ? team_geo : team_eng;
 
     return (
-        <div className="main-content">
+        <div className="main-content" style={{ textAlign: 'justify' }}>
 
             <section className="bg-img-no-repeat bg-img-right" data-tm-bg-img="images/bg/bg-shape-bconsul2.png">
                 <div className="container">

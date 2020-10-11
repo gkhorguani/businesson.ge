@@ -29,8 +29,8 @@ function App() {
         <Route path="/careers" component={Careers} />
         <Route path="/contact" component={Contact} />
         <Route path="/privacypolicy" component={PrivacyPolicy} />
+        <Route component={Footer} />
       </Router>
-      <Footer />
     </>
   );
 }

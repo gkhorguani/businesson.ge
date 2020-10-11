@@ -23,7 +23,7 @@ const Services = () => {
                                             <div className="thumb-inner"> <img width="672" height="448" src={service.image} className="img-fullwidth" alt="" /></div>
                                         </div>
                                         <div className="details">
-                                            <h4 className="title" style={{ 'minHeight': '70px' }}><a href={`/offer/${service.id}`}>{service.title}</a></h4>
+                                            <h4 className="title font-size-18" style={{ 'minHeight': '55px' }}><a href={`/offer/${service.id}`}>{service.title}</a></h4>
                                         </div>
                                     </div>
                                 </div>
