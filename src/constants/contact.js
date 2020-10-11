@@ -21,7 +21,7 @@ const address_eng = {
         { icon: 'fa fa-twitter', url: 'https://twitter.com/business_on_ge' },
         { icon: 'fa fa-linkedin', url: 'https://www.linkedin.com/company/53397193' },
         { icon: 'fa fa-instagram', url: 'https://www.instagram.com/businesson.ge' },
-        { icon: 'fa fa-whatsapp', url: 'whatsapp://+995597755650' },
+        { icon: 'fa fa-whatsapp', url: 'https://wa.me/995597755650' },
         { icon: 'fa fa-viber', url: 'viber://chat/?number=+995597755650' }
     ]
 }
