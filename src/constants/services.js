@@ -15,7 +15,8 @@ const home_services_geo = [
     { image: '/images/static/mtavari/kubikebi/udzravi qoneba.jpg', title: 'უძრავი ქონების აგენტის მომსახურება' },
     { image: '/images/static/mtavari/kubikebi/avtoservisi.jpg', title: 'ავტოსერვისით მომსახურება' },
     { image: '/images/static/mtavari/kubikebi/dasuftaveba.jpg', title: 'დასუფთავება' },
-    { image: '/images/static/mtavari/kubikebi/usafrtxoeba.jpg', title: 'დაცვა და უსაფრთხოება' }
+    { image: '/images/static/mtavari/kubikebi/usafrtxoeba.jpg', title: 'დაცვა და უსაფრთხოება' },
+    { image: '/images/static/mtavari/kubikebi/turizmi.jpg', title: 'ტურისტული მომსახურება' }
 ];
 
 const home_services_eng = [
@@ -35,7 +36,8 @@ const home_services_eng = [
     { image: '/images/static/mtavari/kubikebi/udzravi qoneba.jpg', title: 'Real estate agent services' },
     { image: '/images/static/mtavari/kubikebi/avtoservisi.jpg', title: 'Auto service' },
     { image: '/images/static/mtavari/kubikebi/dasuftaveba.jpg', title: 'Cleaning service' },
-    { image: '/images/static/mtavari/kubikebi/usafrtxoeba.jpg', title: 'Security and safety' }
+    { image: '/images/static/mtavari/kubikebi/usafrtxoeba.jpg', title: 'Security and safety' },
+    { image: '/images/static/mtavari/kubikebi/turizmi.jpg', title: 'Tourism and Travel Services' }
 ];
 
 const home_main_geo = {
