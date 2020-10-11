@@ -51,7 +51,7 @@ const Header = () => {
                                         <div className="col-sm-auto align-self-center">
                                             <a className="menuzord-brand site-brand" href="/">
                                                 <img className="logo-default logo-1x" src="/images/logo.jpg" alt="Logo" />
-                                                <img className="logo-default logo-2x retina" src="images/logo.jpg" alt="Logo" />
+                                                <img className="logo-default logo-2x retina" src="/images/logo.jpg" alt="Logo" />
                                             </a>
                                         </div>
                                         <div className="col-sm-auto ml-auto pr-0 align-self-center">
