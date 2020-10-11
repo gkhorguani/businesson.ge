@@ -1,5 +1,5 @@
 const address_geo = {
-    street: 'თბილისი,  აკაკი ჭერეთლის #51',
+    street: 'თბილისი,  აკაკი წერეთლის #51',
     tel: '2 11 07 47',
     email: 'info@businesson.ge',
     socialMedia: [
