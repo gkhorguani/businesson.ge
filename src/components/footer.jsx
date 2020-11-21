@@ -31,7 +31,7 @@ const Footer = () => {
                                 <div id="tm_widget_contact_info-1" className="split-nav-menu clearfix widget widget-contact-info clearfix mb-20">
                                     <div className="tm-widget tm-widget-contact-info contact-info contact-info-style1  contact-icon-theme-colored1">
                                         <div className="thumb">
-                                            <img alt="Logo" src="/images/static/mtavari/logo fonis gareshe.jpg" style={{ width: '150px' }} />
+                                            <img alt="Logo" src="/images/logo/logo_transparent.png" style={{ width: '150px' }} />
                                         </div>
                                         <div className="description">{addressData.street}</div>
                                         <div>
